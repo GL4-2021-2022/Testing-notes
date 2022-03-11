@@ -46,3 +46,51 @@
 - Input + Preconditions => Output , Defect related to Preconditions are hard to detect and reproduce
 
 ## Testing process and activities
+
+### TDD
+
+Test driven development :
+
+- Write unit test before components and work to comply with those tests
+
+### Test levels
+
+- Components test
+  - Separate Unit / Module tests
+  - Objectives :
+    - verify module functionality
+    - prevent regression
+    - Assure component quality
+    - prevent defects from escaping to higher level ( Snowball effect )
+  - Objects ( Targets ):
+    - Class
+    - Module
+    - Function
+    - Data structure
+  - Detected defects :
+    - Incorrect logic
+    - Edge cases
+- Integration test
+- System test
+- Acceptance tests
+
+### Test process context
+
+- Product risk
+- Business domain
+- operation constraints
+- External / Internal policies
+- SDLC : Software development lifecycle
+  - SDLC has a big impact of software testing
+  - Types :
+    - Sequential :
+      - Waterfall :
+        - Requirement analysis
+        - design
+        - coding
+        - testing ![w](water.jpg)
+      - V-Model : For every activity there's a test level ![v](vmodel.png)
+  - Iterative / Agile
+    - Incremental testing
+    - test activities overlap
+    - test targets / object have minor changes which catches defects faster
