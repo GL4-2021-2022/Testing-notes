@@ -71,8 +71,22 @@ Test driven development :
     - Incorrect logic
     - Edge cases
 - Integration test
+  - focuses on data flow between components
+  - finds defect on interactions between system parts
 - System test
+
+  - Validates the complete and fully integrated software product
+  - Black box testing : The testing software has no idea what's inside the system
+  - Objectives :
+    - evaluate the end-to-end system specifications
+    - check compliance between input and outputs
+
 - Acceptance tests
+  - black box test
+  - performed by clients
+  - final phase
+  - validates businesses procedure
+  - as close as possible to production environment
 
 ### Test process context
 
@@ -94,3 +108,7 @@ Test driven development :
     - Incremental testing
     - test activities overlap
     - test targets / object have minor changes which catches defects faster
+
+### Test Process
+
+### Test activities
