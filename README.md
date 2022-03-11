@@ -116,8 +116,6 @@ Test driven development :
     - test activities overlap
     - test targets / object have minor changes which catches defects faster
 
-### Test Process
-
 ### Test activities
 
 #### Test planning
