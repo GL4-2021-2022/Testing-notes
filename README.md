@@ -102,7 +102,8 @@ Test driven development :
         - Requirement analysis
         - design
         - coding
-        - testing ![w](water.jpg)
+        - testing
+          ![w](water.jpg)
       - V-Model : For every activity there's a test level ![v](vmodel.png)
   - Iterative / Agile
     - Incremental testing
