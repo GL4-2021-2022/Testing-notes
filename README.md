@@ -103,7 +103,7 @@ Test driven development :
         - design
         - coding
         - testing
-          ![w](water.jpg)
+        - ![w](water.jpg)
       - V-Model : For every activity there's a test level ![v](vmodel.png)
   - Iterative / Agile
     - Incremental testing
