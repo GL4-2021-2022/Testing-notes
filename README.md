@@ -47,6 +47,12 @@
 
 ## Testing process and activities
 
+### Defect types
+
+- Ambiguity : parts of the specs are not clear
+- Inaccuracy : parts of the specs lack accuracy, too general or too free
+- Inconsistency : parts of the specs clash with each other
+
 ### TDD
 
 Test driven development :
@@ -113,3 +119,52 @@ Test driven development :
 ### Test Process
 
 ### Test activities
+
+#### Test planning
+
+- Defines objectives
+- Takes context into consideration
+- Can be revisited after test monitoring
+
+#### Test monitoring and control (always ongoing)
+
+- monitoring : compares planned progress to actual progress
+- control : take actions to meet objectives
+  - assert coverage criteria
+  - assert quality level
+  - determine the need for more tests
+
+#### Test analysis (what to test)
+
+- Identify what to stets
+- Spec / implementation / system, analysis
+- defect identification : ambiguity, Inaccuracy, Inconsistency
+
+#### Test design (how to test)
+
+- identify needed resources ( Vms , database ...)
+- identify needed data
+- design test environment
+- design test cases
+
+#### Test implementation (do we have everything in place in order to execute tests?)
+
+- prepare test software (testware)
+- Code tests
+- Use test suites
+- Build test env
+
+#### Test execution
+
+- Run tests : Automated / Manual
+- Record test execution
+- compare results with expected results
+- Reports ( coverage, failed tests)
+
+#### Test Completion
+
+- Summery
+- determine if changes are needed
+- gather reports
+
+### Test Work products
